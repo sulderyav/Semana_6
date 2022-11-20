@@ -1,0 +1,56 @@
+body {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    font-family: "Arial";
+}
+
+header {
+    background-color: pink;
+    display: flex;
+    justify-content: center;
+    border-radius: 0px 0px 12px 12px;
+    margin-bottom: 12px;
+}
+
+nav >  ul { 
+    display: flex;
+    justify-content: space-around;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+ 
+span {
+    background-color: rebeccapurple;
+    border-radius: 8px;
+    padding: 10px 20px;
+    color: white;
+    cursor: pointer;
+}
+
+.submenu-container {
+    /* background-color: red; */
+    display: flex;
+    flex-direction: column;
+}
+
+.submenu-container span {
+    margin-bottom: 10px;
+}
+
+
+.submenu li {
+    border-radius: 8px;
+    background-color: pink;
+    /* background-color: red; */
+    text-align: center;
+    padding: 8px 18px;    
+    margin: 4px 0px;
+}
+
+.submenu ul li {
+    margin: 0;
+}
